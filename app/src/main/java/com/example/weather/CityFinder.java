@@ -94,6 +94,7 @@ public class CityFinder extends AppCompatActivity {
 
                 @Override
                 public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    if(Calendar.getInstance().getTime().getTime()-prevTextChangeTime.getTime()>1000) {
                         List<String> suggest = new ArrayList<>();
                         for (String search : listcity) {
                             if (suggest.size() < 10) {
@@ -104,7 +105,8 @@ public class CityFinder extends AppCompatActivity {
                         }
                         searchBar.setLastSuggestions(suggest);
                     }
-
+                    prevTextChangeTime = Calendar.getInstance().getTime();
+                }
 
                 @Override
                 public void afterTextChanged(Editable s) {
