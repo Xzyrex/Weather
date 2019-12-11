@@ -27,7 +27,6 @@ import java.util.Calendar;
 
 public class CityFinder extends AppCompatActivity {
     private List<String> listCities;
-    List<String> suggest = new ArrayList<>();
     private MaterialSearchBar searchBar;
     ProgressDialog proDialog;
     Date prevTextChangeTime = Calendar.getInstance().getTime();

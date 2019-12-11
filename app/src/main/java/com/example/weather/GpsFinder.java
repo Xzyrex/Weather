@@ -57,7 +57,7 @@ public class GpsFinder extends AppCompatActivity implements GoogleApiClient.Conn
         btnClickMe = findViewById(R.id.button2);
 
         btnClickMe.setOnClickListener(GpsFinder.this);
-
+        checkLocation();
     }
 
 

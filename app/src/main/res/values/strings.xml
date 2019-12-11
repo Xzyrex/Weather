@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">WeatherAPI</string>
+    <string name="app_name">Weather</string>
+    <string name="cityName"></string>
+    <string name="smallDescription"></string>
+    <string name="mainDescription"></string>
+    <string name="temp"></string>
+    <string name="pressure"></string>
+    <string name="humidity"></string>
+    <string name="temp_max"></string>
+    <string name="temp_min"></string>
+    <string name="visibility"></string>
+    <string name="windspeed"></string>
+    <string name="windDeg"></string>
+    <string name="time"></string>
+    <string name="sunrise"></string>
+    <string name="sunset"></string>
+    <string name="clouds"></string>
 </resources>

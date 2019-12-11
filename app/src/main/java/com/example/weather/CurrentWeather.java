@@ -189,12 +189,6 @@ public class CurrentWeather extends AppCompatActivity {
         boolean checked = ((RadioButton) view).isChecked();
         // Check which radio button was clicked
         switch (view.getId()) {
-            case R.id.radio_kel:
-                if (checked) {
-                    units = "kelvin";
-                    checkWhatActivityToStart();
-                    break;
-                }
             case R.id.radio_cel:
                 if (checked) {
                     units = "metric";

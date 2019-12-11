@@ -127,15 +127,6 @@
             android:onClick="onRadioButtonClicked"
             android:text="Celsius" />
 
-        <RadioButton
-            android:id="@+id/radio_kel"
-            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:clickable="true"
-            android:onClick="onRadioButtonClicked"
-            android:text="kelvin" />
     </RadioGroup>
 
 
